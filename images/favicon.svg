@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <style>
+    .st0{fill:#4A6CF7;}
+    .st1{fill:#F1F5FF;}
+    .st2{fill:#FFFFFF;}
+    .st3{fill:#1E293B;}
+  </style>
+  
+  <!-- Background -->
+  <rect class="st0" x="0" y="0" width="32" height="32" rx="8" ry="8"/>
+  
+  <!-- Letter P stylized -->
+  <path class="st2" d="M10,8 L22,8 C24,8 26,10 26,12 C26,14 24,16 22,16 L10,16 L10,24" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Dot accent -->
+  <circle class="st2" cx="22" cy="22" r="2"/>
+</svg>

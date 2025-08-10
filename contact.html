@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><img src="images/logo.svg" alt="Portfolio Logo"></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="case-studies.html">Case Studies</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p>Let's discuss your project and bring your ideas to life</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <img src="images/contact-illustration.svg" alt="Email Icon">
+                    </div>
+                    <h3>Email</h3>
+                    <p>email@example.com</p>
+                    <a href="mailto:email@example.com" class="contact-link">Send Email</a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <img src="images/contact-illustration.svg" alt="Phone Icon">
+                    </div>
+                    <h3>Phone</h3>
+                    <p>(123) 456-7890</p>
+                    <a href="tel:1234567890" class="contact-link">Call Now</a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <img src="images/contact-illustration.svg" alt="Location Icon">
+                    </div>
+                    <h3>Location</h3>
+                    <p>City, Country</p>
+                    <a href="https://maps.google.com" target="_blank" class="contact-link">View on Map</a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <img src="images/contact-illustration.svg" alt="Clock Icon">
+                    </div>
+                    <h3>Working Hours</h3>
+                    <p>Monday - Friday: 9am - 5pm</p>
+                    <p>Weekend: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p>Fill out the form below to discuss your project or ask any questions.</p>
+            </div>
+            
+            <div class="contact-form-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label class="checkbox-container">
+                            <input type="checkbox" name="privacy-policy" required>
+                            <span class="checkmark"></span>
+                            I agree to the <a href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What information do you need to start a project?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To get started, I'll need information about your business, your goals for the project, your target audience, any design preferences, and your timeline and budget. This helps me understand your needs and create a solution that meets your requirements.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does it take to complete a project?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The timeline varies depending on the complexity of the project. A basic website typically takes 2-4 weeks, while more complex projects can take 6-12 weeks. I'll provide a detailed timeline during our initial consultation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your payment process?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For most projects, I require a 50% deposit to begin work, with the remaining balance due upon completion. For larger projects, I may break the payments into multiple milestones. I accept payments via bank transfer, PayPal, and credit cards.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer ongoing support after the project is complete?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, I offer various maintenance packages to keep your website secure, up-to-date, and running smoothly. These packages include regular updates, security monitoring, performance optimization, and technical support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="map-container">
+            <img src="images/map.svg" alt="Location Map" width="100%" height="450" style="border:0;">
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.svg" alt="Portfolio Logo">
+                    <p>Creating digital experiences that make an impact.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <img src="images/social-icons.svg" alt="Social Media Icons">
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> email@example.com</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> City, Country</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

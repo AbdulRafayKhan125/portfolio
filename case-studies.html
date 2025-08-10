@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies - My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><img src="images/logo.svg" alt="Portfolio Logo"></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="case-studies.html" class="active">Case Studies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Case Studies</h1>
+            <p>Explore my recent projects and success stories</p>
+        </div>
+    </section>
+
+    <section class="case-studies-full">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Work</h2>
+                <div class="section-divider"></div>
+                <p>Take a look at some of the projects I've worked on and the results I've achieved for my clients.</p>
+            </div>
+            
+            <div class="case-studies-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web-design">Web Design</button>
+                <button class="filter-btn" data-filter="e-commerce">E-commerce</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            
+            <div class="case-studies-grid">
+                <!-- Case Study 1 -->
+                <div class="case-study-card" data-category="e-commerce">
+                    <div class="case-study-image">
+                        <img src="images/project-1.svg" alt="E-commerce Website">
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Modern E-commerce Platform</h3>
+                        <p>A fully responsive e-commerce website with custom product filtering and secure checkout.</p>
+                        <a href="#case-study-1" class="read-more">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Case Study 2 -->
+                <div class="case-study-card" data-category="web-design">
+                    <div class="case-study-image">
+                        <img src="images/project-2.svg" alt="Restaurant Website">
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Restaurant Website Redesign</h3>
+                        <p>A modern website for a local restaurant featuring online reservations and menu management.</p>
+                        <a href="#case-study-2" class="read-more">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Case Study 3 -->
+                <div class="case-study-card" data-category="web-design">
+                    <div class="case-study-image">
+                        <img src="images/project-3.svg" alt="Portfolio Website">
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Photographer Portfolio</h3>
+                        <p>A creative portfolio website for a photographer with gallery and contact form.</p>
+                        <a href="#case-study-3" class="read-more">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Case Study 4 -->
+                <div class="case-study-card" data-category="branding">
+                    <div class="case-study-image">
+                        <img src="images/project-4.jpg" alt="Branding Project">
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Brand Identity Design</h3>
+                        <p>Complete brand identity design including logo, color palette, typography, and brand guidelines.</p>
+                        <a href="#case-study-4" class="read-more">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Case Study 5 -->
+                <div class="case-study-card" data-category="e-commerce">
+                    <div class="case-study-image">
+                        <img src="images/project-5.jpg" alt="Online Store">
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Fashion E-commerce Store</h3>
+                        <p>A stylish e-commerce platform for a fashion brand with advanced filtering and wishlist functionality.</p>
+                        <a href="#case-study-5" class="read-more">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Case Study 6 -->
+                <div class="case-study-card" data-category="web-design">
+                    <div class="case-study-image">
+                        <img src="images/project-6.jpg" alt="Corporate Website">
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Corporate Website Redesign</h3>
+                        <p>A professional website redesign for a corporate client with improved user experience and conversion rate.</p>
+                        <a href="#case-study-6" class="read-more">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Case Studies -->
+    <section id="case-study-1" class="case-study-detail">
+        <div class="container">
+            <div class="case-study-header">
+                <h2>Modern E-commerce Platform</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="case-study-overview">
+                <div class="overview-image">
+                    <img src="images/project-1.svg" alt="E-commerce Website">
+                </div>
+                <div class="overview-content">
+                    <h3>Project Overview</h3>
+                    <p>A complete e-commerce solution for a retail client looking to expand their online presence and increase sales. The project involved designing and developing a user-friendly online store with advanced features and seamless checkout process.</p>
+                    
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <h4>Client</h4>
+                            <p>Fashion Retailer</p>
+                        </div>
+                        <div class="meta-item">
+                            <h4>Timeline</h4>
+                            <p>8 Weeks</p>
+                        </div>
+                        <div class="meta-item">
+                            <h4>Services</h4>
+                            <p>Web Design, E-commerce Development, SEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="case-study-details">
+                <div class="detail-section">
+                    <h3>The Challenge</h3>
+                    <p>The client needed a modern, user-friendly e-commerce website that would showcase their products effectively and provide a seamless shopping experience. They were facing challenges with their existing platform, including slow loading times, poor mobile experience, and a complicated checkout process that was leading to cart abandonment.</p>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>The Solution</h3>
+                    <p>I designed and developed a custom e-commerce platform with the following features:</p>
+                    <ul>
+                        <li>Responsive design that works flawlessly across all devices</li>
+                        <li>Advanced product filtering and search functionality</li>
+                        <li>Product recommendations based on browsing history</li>
+                        <li>Streamlined checkout process with multiple payment options</li>
+                        <li>Integration with inventory management system</li>
+                        <li>SEO optimization for improved visibility</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>The Process</h3>
+                    <div class="process-images">
+                        <img src="images/project-1.svg" alt="E-commerce Website">
+                    </div>
+                    <p>The project began with extensive research into the client's target audience and competitors. I created wireframes and prototypes to establish the site structure and user flow, followed by high-fidelity designs that aligned with the client's brand identity. The development phase involved building a custom theme, implementing e-commerce functionality, and ensuring the site was optimized for performance and SEO.</p>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>The Results</h3>
+                    <div class="results-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">45%</span>
+                            <span class="stat-label">Increase in Conversion Rate</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">60%</span>
+                            <span class="stat-label">Increase in Mobile Sales</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">30%</span>
+                            <span class="stat-label">Decrease in Cart Abandonment</span>
+                        </div>
+                    </div>
+                    <p>The new e-commerce platform resulted in significant improvements in key metrics. The client saw a 45% increase in conversion rate, a 60% increase in mobile sales, and a 30% decrease in cart abandonment. The improved user experience and streamlined checkout process contributed to higher customer satisfaction and increased repeat purchases.</p>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>Client Testimonial</h3>
+                    <div class="testimonial">
+                        <p>"The new e-commerce website has transformed our online business. The user-friendly design and seamless checkout process have significantly improved our conversion rates and customer satisfaction. The attention to detail and technical expertise demonstrated throughout the project were exceptional."</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/testimonial-1.svg" alt="Client">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Marketing Director, Fashion Retailer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="case-study-navigation">
+                <a href="#case-study-6" class="prev-case-study"><i class="fas fa-arrow-left"></i> Previous Case Study</a>
+                <a href="#case-study-2" class="next-case-study">Next Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional case studies would follow the same structure -->
+    <!-- For brevity, I'm only including one detailed case study -->
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's discuss how I can help bring your ideas to life.</p>
+                <a href="contact.html" class="btn primary-btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Portfolio</h3>
+                    <p>Creating digital experiences that make an impact.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <img src="images/social-icons.svg" alt="Social Media Icons">
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> email@example.com</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> City, Country</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

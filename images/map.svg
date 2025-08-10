@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <style>
+    .st0{fill:#4A6CF7;}
+    .st1{fill:#F1F5FF;}
+    .st2{fill:#FFFFFF;}
+    .st3{fill:#1E293B;}
+    .st4{fill:#E5E7EB;}
+    .st5{fill:#6C757D;}
+  </style>
+  
+  <!-- Map background -->
+  <rect class="st1" x="0" y="0" width="600" height="300" rx="10" ry="10"/>
+  
+  <!-- Map grid -->
+  <line x1="0" y1="50" x2="600" y2="50" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="0" y1="100" x2="600" y2="100" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="0" y1="150" x2="600" y2="150" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="0" y1="200" x2="600" y2="200" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="0" y1="250" x2="600" y2="250" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <line x1="100" y1="0" x2="100" y2="300" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="300" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="300" y1="0" x2="300" y2="300" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="300" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="500" y1="0" x2="500" y2="300" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Roads -->
+  <path class="st2" d="M0,120 L200,120 L300,220 L600,220" stroke="#FFFFFF" stroke-width="10"/>
+  <path class="st2" d="M300,0 L300,300" stroke="#FFFFFF" stroke-width="10"/>
+  <path class="st2" d="M450,100 L450,300" stroke="#FFFFFF" stroke-width="6"/>
+  <path class="st2" d="M100,50 L500,50" stroke="#FFFFFF" stroke-width="6"/>
+  
+  <!-- Location marker -->
+  <circle class="st0" cx="300" cy="150" r="20"/>
+  <circle class="st2" cx="300" cy="150" r="10"/>
+  <circle class="st0" cx="300" cy="150" r="5"/>
+  
+  <!-- Pulse animation -->
+  <circle class="st0" cx="300" cy="150" r="30" opacity="0.3"/>
+  <circle class="st0" cx="300" cy="150" r="40" opacity="0.1"/>
+  
+  <!-- Parks/Green areas -->
+  <rect class="st0" x="50" y="170" width="100" height="80" rx="10" ry="10" opacity="0.1"/>
+  <rect class="st0" x="400" y="20" width="150" height="100" rx="10" ry="10" opacity="0.1"/>
+  
+  <!-- Water -->
+  <rect class="st0" x="500" y="150" width="100" height="150" opacity="0.2"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <style>
+    .st0{fill:#4A6CF7;}
+    .st1{fill:#F1F5FF;}
+    .st2{fill:#FFFFFF;}
+    .st3{fill:#1E293B;}
+    .st4{fill:#E5E7EB;}
+  </style>
+  
+  <!-- Background shape -->
+  <path class="st1" d="M50,50 L550,50 C566.5,50 580,63.5 580,80 L580,320 C580,336.5 566.5,350 550,350 L50,350 C33.5,350 20,336.5 20,320 L20,80 C20,63.5 33.5,50 50,50 Z"/>
+  
+  <!-- Code window -->
+  <rect class="st2" x="60" y="100" width="300" height="200" rx="10" ry="10"/>
+  <rect class="st4" x="60" y="100" width="300" height="30" rx="10" ry="10"/>
+  <circle class="st0" cx="80" cy="115" r="5"/>
+  <circle class="st3" cx="100" cy="115" r="5"/>
+  <circle class="st4" cx="120" cy="115" r="5"/>
+  
+  <!-- Code lines -->
+  <rect class="st4" x="80" y="150" width="120" height="10" rx="5" ry="5"/>
+  <rect class="st0" x="210" y="150" width="60" height="10" rx="5" ry="5"/>
+  <rect class="st4" x="280" y="150" width="40" height="10" rx="5" ry="5"/>
+  
+  <rect class="st4" x="80" y="170" width="80" height="10" rx="5" ry="5"/>
+  <rect class="st0" x="170" y="170" width="100" height="10" rx="5" ry="5"/>
+  <rect class="st4" x="280" y="170" width="30" height="10" rx="5" ry="5"/>
+  
+  <rect class="st4" x="80" y="190" width="140" height="10" rx="5" ry="5"/>
+  <rect class="st0" x="230" y="190" width="70" height="10" rx="5" ry="5"/>
+  
+  <rect class="st4" x="80" y="210" width="60" height="10" rx="5" ry="5"/>
+  <rect class="st0" x="150" y="210" width="120" height="10" rx="5" ry="5"/>
+  <rect class="st4" x="280" y="210" width="40" height="10" rx="5" ry="5"/>
+  
+  <rect class="st4" x="80" y="230" width="100" height="10" rx="5" ry="5"/>
+  <rect class="st0" x="190" y="230" width="80" height="10" rx="5" ry="5"/>
+  <rect class="st4" x="280" y="230" width="20" height="10" rx="5" ry="5"/>
+  
+  <rect class="st4" x="80" y="250" width="70" height="10" rx="5" ry="5"/>
+  <rect class="st0" x="160" y="250" width="90" height="10" rx="5" ry="5"/>
+  
+  <!-- Design elements -->
+  <circle class="st0" cx="450" cy="150" r="50"/>
+  <rect class="st3" x="400" y="220" width="100" height="80" rx="10" ry="10"/>
+  <rect class="st2" x="420" y="240" width="60" height="10" rx="5" ry="5"/>
+  <rect class="st2" x="420" y="260" width="40" height="10" rx="5" ry="5"/>
+  <circle class="st2" cx="440" cy="290" r="10"/>
+  <circle class="st1" cx="470" cy="290" r="10"/>
+  
+  <!-- Decorative elements -->
+  <circle class="st1" cx="500" cy="100" r="20"/>
+  <circle class="st0" cx="100" cy="320" r="15"/>
+  <circle class="st1" cx="500" cy="320" r="10"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+  <style>
+    .st0{fill:#4A6CF7;}
+    .st1{fill:#F1F5FF;}
+    .st2{fill:#FFFFFF;}
+    .st3{fill:#1E293B;}
+  </style>
+  
+  <!-- Facebook -->
+  <circle class="st0" cx="25" cy="25" r="20"/>
+  <path class="st2" d="M30,15 L27,15 C24.5,15 22.5,17 22.5,19.5 L22.5,22.5 L20,22.5 L20,27.5 L22.5,27.5 L22.5,40 L27.5,40 L27.5,27.5 L30,27.5 L30,22.5 L27.5,22.5 L27.5,20 C27.5,19.2 28.2,18.5 29,18.5 L30,18.5 L30,15 Z" fill="#FFFFFF"/>
+  
+  <!-- Twitter/X -->
+  <circle class="st0" cx="75" cy="25" r="20"/>
+  <path class="st2" d="M65,20 L70,20 L75,26 L80,20 L85,20 L77.5,29 L85,38 L80,38 L75,32 L70,38 L65,38 L72.5,29 L65,20 Z" fill="#FFFFFF"/>
+  
+  <!-- Instagram -->
+  <circle class="st0" cx="125" cy="25" r="20"/>
+  <circle class="st2" cx="125" cy="25" r="5" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <circle class="st2" cx="132" cy="18" r="1.5" fill="#FFFFFF"/>
+  <rect x="115" y="15" width="20" height="20" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- LinkedIn -->
+  <circle class="st0" cx="175" cy="25" r="20"/>
+  <rect class="st2" x="165" y="20" width="4" height="12" fill="#FFFFFF"/>
+  <circle class="st2" cx="167" cy="16" r="2" fill="#FFFFFF"/>
+  <path class="st2" d="M172,20 L172,32 L176,32 L176,26 C176,24 177,22 179,22 C181,22 182,24 182,26 L182,32 L186,32 L186,25 C186,21 184,19 181,19 C179.5,19 178,19.5 177,21 L176.5,20 L172,20 Z" fill="#FFFFFF"/>
+</svg>

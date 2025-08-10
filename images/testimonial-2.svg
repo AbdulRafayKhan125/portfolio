@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <style>
+    .st0{fill:#4A6CF7;}
+    .st1{fill:#F1F5FF;}
+    .st2{fill:#FFFFFF;}
+    .st3{fill:#1E293B;}
+    .st4{fill:#E5E7EB;}
+    .st5{fill:#6C757D;}
+  </style>
+  
+  <!-- Background circle -->
+  <circle class="st1" cx="50" cy="50" r="50"/>
+  
+  <!-- Person silhouette -->
+  <circle class="st3" cx="50" cy="40" r="20"/>
+  <path class="st0" d="M50,65 C35,65 25,75 25,90 L75,90 C75,75 65,65 50,65 Z"/>
+  
+  <!-- Face features -->
+  <circle class="st2" cx="43" cy="37" r="4"/>
+  <circle class="st2" cx="57" cy="37" r="4"/>
+  <circle class="st3" cx="43" cy="37" r="2"/>
+  <circle class="st3" cx="57" cy="37" r="2"/>
+  <path class="st2" d="M43,47 Q50,52 57,47" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  
+  <!-- Hair -->
+  <path class="st3" d="M30,30 Q50,10 70,30" stroke="#1E293B" stroke-width="10" fill="none"/>
+</svg>

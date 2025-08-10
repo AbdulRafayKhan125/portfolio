@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <style>
+    .st0{fill:#4A6CF7;}
+    .st1{fill:#F1F5FF;}
+    .st2{fill:#FFFFFF;}
+    .st3{fill:#1E293B;}
+    .st4{fill:#E5E7EB;}
+  </style>
+  
+  <!-- Background circle -->
+  <circle class="st1" cx="50" cy="50" r="50"/>
+  
+  <!-- Design tools -->
+  <circle class="st2" cx="50" cy="50" r="25" stroke="#4A6CF7" stroke-width="2"/>
+  
+  <!-- Color palette -->
+  <circle class="st0" cx="35" cy="35" r="8"/>
+  <circle class="st3" cx="65" cy="35" r="8"/>
+  <circle class="st4" cx="35" cy="65" r="8"/>
+  <circle class="st0" cx="65" cy="65" r="8" opacity="0.5"/>
+  
+  <!-- Pen tool -->
+  <path class="st3" d="M50,30 L60,50 L50,70 L40,50 Z" stroke="#1E293B" stroke-width="2" fill="none"/>
+  <circle class="st0" cx="50" cy="50" r="3"/>
+</svg>
