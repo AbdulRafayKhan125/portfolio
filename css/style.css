@@ -138,6 +138,10 @@ nav {
     color: var(--primary-color);
     font-family: var(--heading-font);
 }
+.logo img{
+    height:50px ;
+    width:50px;
+}
 
 .nav-links {
     display: flex;
